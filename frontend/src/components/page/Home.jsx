@@ -1,6 +1,7 @@
 import React from 'react'
 import Herosection from '../ui/Herosection'
-import Abouts from './Abouts'
+import Footer from '../ui/Footer'
+
 
 function Home() {
   return (
@@ -9,7 +10,8 @@ function Home() {
         <Herosection/>
     </div>
     <div>
-        <Abouts/>
+        {/* <Abouts/> */}
+        <Footer/>
     </div>
     </>
   )
