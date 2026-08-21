@@ -8,6 +8,11 @@ import KeyFeatures from '../ui/Keyfeatures'
 
 // import Abouts from './Abouts'
 import Services from './Services'
+import DigitalAlifeShowcase from '../ui/Digitalalifeshowcase'
+import IndustriesWeServe from '../ui/Industriesweserve'
+import WhyChooseDigitalAlife from '../ui/Whychoosedigitalalife'
+import OurClients from '../ui/Ourclients'
+import OfficeAndReviews from '../ui/Officeandreviews'
  
 
 function Home() {
@@ -20,8 +25,24 @@ function Home() {
       <Services/>
     </div>
     <div>
-        {/* <Abouts/> */}
+         <DigitalAlifeShowcase/>
+    </div>
+    <div>
+         <IndustriesWeServe/>
+    </div>
+    <div>
+         <WhyChooseDigitalAlife/>
+    </div>
+    <div>
+         <OurClients/>
+    </div>
+    <div>
+         <OfficeAndReviews/>
+    </div>
+    <div>
          <KeyFeatures/>
+    </div>
+    <div>
         <Footer/>
     </div>
     </>
