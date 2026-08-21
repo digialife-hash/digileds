@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-
 function Navbar() {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -791,7 +790,7 @@ function Navbar() {
             {/* LOGIN */}
 
             <a
-              href="/login"
+              href="https://digitalalife.in/login"
               className="
                 rounded-xl
                 border border-[#cdd8ea]
@@ -810,7 +809,7 @@ function Navbar() {
             {/* REQUEST FREE QUOTE */}
 
             <a
-              href="https://digitalalife.com/contact.php"
+              href="https://digitalalife.in/contact.php"
               className="
                 rounded-xl
                 bg-[#10284A]

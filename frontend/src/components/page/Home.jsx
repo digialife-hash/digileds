@@ -1,6 +1,8 @@
 import React from 'react'
 import Herosection from '../ui/Herosection'
 import Footer from '../ui/Footer'
+import Abouts from "./Abouts"
+import KeyFeatures from '../ui/Keyfeatures'
 
 
 function Home() {
@@ -10,7 +12,8 @@ function Home() {
         <Herosection/>
     </div>
     <div>
-        {/* <Abouts/> */}
+        <Abouts/>
+         <KeyFeatures/>
         <Footer/>
     </div>
     </>
