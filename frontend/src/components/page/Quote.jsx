@@ -1,0 +1,2 @@
+import PageHero from "./PageHero"; import ContactForm from "./ContactForm";
+export default function Quote() { return <><PageHero eyebrow="Free consultation" title="Tell us what you want to build." description="Share a few details and our experts will suggest the right approach for your goals." action={null}/><section className="bg-[#f7faf9] px-6 py-20 sm:px-10"><div className="mx-auto max-w-3xl"><ContactForm/></div></section></>; }
