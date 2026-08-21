@@ -37,9 +37,11 @@ function HeroHeading() {
   }, [text, isDeleting, wordIndex]);
 
   return (
-    <h1 style={{color:'#0D2C4D'}} className="max-w-5xl text-5xl font-bold leading-[1.05] tracking-tight  sm:text-6xl md:text-7xl lg:text-7xl">
+    <h1 
+    // style={{color:'#0D2C4D'}} 
+    className="max-w-5xl text-5xl font-bold leading-[1.05] tracking-tight  sm:text-6xl md:text-7xl lg:text-7xl text-[#2f9e6f]">
       {text}
-      <span className="ml-1 inline-block h-[0.9em] w-[3px] animate-pulse bg-orange-400 align-middle" />
+      <span className=" ml-1 inline-block h-[0.9em] w-[3px] animate-pulse bg-[#2f9e6f] align-middle" />
     </h1>
   );
 }

@@ -1,9 +1,14 @@
 import React from 'react'
 import Herosection from '../ui/Herosection'
+
 import Footer from '../ui/Footer'
 import Abouts from "./Abouts"
 import KeyFeatures from '../ui/Keyfeatures'
 
+
+// import Abouts from './Abouts'
+import Services from './Services'
+ 
 
 function Home() {
   return (
@@ -12,7 +17,10 @@ function Home() {
         <Herosection/>
     </div>
     <div>
-        <Abouts/>
+      <Services/>
+    </div>
+    <div>
+        {/* <Abouts/> */}
          <KeyFeatures/>
         <Footer/>
     </div>

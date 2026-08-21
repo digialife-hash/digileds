@@ -13,7 +13,7 @@ function HeroSection() {
         loop
         playsInline
         preload="auto"
-        src="/videos/hero.mp4"
+        src="/videos/hero1.mp4"
       />
 
       {/* Mobile-only fallback background: soft navy → green radial tint,
@@ -27,10 +27,10 @@ function HeroSection() {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/45" />
+      {/* <div className="absolute inset-0 bg-black/45" /> */}
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#05060c]/70 via-transparent to-[#05060c]/90" />
+      {/* <div className="absolute inset-0 bg-gradient-to-b from-[#05060c]/70 via-transparent to-[#05060c]/90" /> */}
 
       {/* Side Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#05060c]/70 via-transparent to-[#05060c]/60" />
@@ -64,7 +64,7 @@ function HeroSection() {
         <div className="z-[100] mt-8 flex w-full flex-col items-center justify-center gap-3 sm:mt-9 sm:w-auto sm:flex-row sm:flex-wrap sm:gap-4">
           <a
             href="/quote"
-            className="w-full rounded-[13px] bg-[#10284A] px-7 py-3.5 text-center text-sm font-semibold text-white shadow-[0_10px_25px_rgba(16,40,74,0.4)] transition hover:bg-[#0B1E38] sm:w-auto"
+            className="w-full rounded-[13px] bg-[#2f9e6f] px-7 py-3.5 text-center text-sm font-semibold text-white shadow-[0_10px_25px_rgba(16,40,74,0.4)] transition hover:bg-[#0B1E38] sm:w-auto"
           >
             Get a Free Consultation
           </a>
