@@ -1,7 +1,8 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 const services = [
     {
+        path : '/services/web-development',
         number: "01",
         icon: (
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -198,7 +199,7 @@ function Services() {
 
                                 {/* Learn more */}
                                 <div className="mt-7 flex items-center gap-2 text-xs font-bold text-[#0c2a4e] transition-all duration-300 group-hover:gap-3 group-hover:text-[#2f9e6f]">
-                                    <span>Explore Service</span>
+                                   <Link to={service.path}> <span>Explore Service</span></Link>
 
                                     <svg
                                         className="h-4 w-4"

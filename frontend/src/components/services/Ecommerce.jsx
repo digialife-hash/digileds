@@ -345,7 +345,7 @@ function HighlightsSection() {
   return (
     <span
       key={`${name}-${i}`}
-      className="flex-shrink-0 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2 text-sm font-semibold"
+      className="flex-shrink-0 inline-flex items-center gap-2 roundenpmd-full border border-slate-200 bg-white px-5 py-2 text-sm font-semibold"
       style={{ color: NAVY }}
     >
       <Icon
